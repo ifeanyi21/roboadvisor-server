@@ -8,9 +8,6 @@ const app = express();
 app.use(cors());
 const PORT = 3100;
 
-// Store user risk tolerance data (in-memory storage for simplicity)
-const userRiskTolerance = {};
-
 app.use(bodyParser.json());
 
 // Endpoint to set user's risk tolerance
